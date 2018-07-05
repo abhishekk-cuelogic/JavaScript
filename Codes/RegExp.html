@@ -1,0 +1,14 @@
+<html>
+<body>
+
+<script>
+var string = "Tom contact number is 1011011010. His age is 35.";
+string += "Mark contact number is 8912398912. His age is 45";
+
+var regexp = new RegExp("\\d+");
+document.write(regexp.exec(string));
+document.write("String contain numbers - " + regexp.test(string))
+</script>
+
+</body>
+</html>
